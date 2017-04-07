@@ -17,11 +17,7 @@ function randomUpTo(max)
   return Math.floor(Math.random() * (max+1));
 }
 
+
 var randIndex = randomUpTo(intro.length-1);
-
-
-var randIndex = randomUpTo(body.length-1)
-
-
-var randIndex = randomUpTo(end.length-1)
-;
+var randIndex = randomUpTo(body.length-1);
+var randIndex = randomUpTo(end.length-1);
